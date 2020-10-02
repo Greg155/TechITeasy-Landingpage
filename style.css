@@ -1,7 +1,10 @@
-<<<<<<< HEAD
-*{
-    margin : 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .services__container{
@@ -33,15 +36,9 @@
     cursor: pointer;
 }
 
-=======
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
+
+
 
 .hero {
     background-image: url("./img/hobby.jpg");
@@ -110,4 +107,3 @@ hr {
     color: black;
     
 }
->>>>>>> 56e6c68ce84047504bbe4eb3fb2e0a739aad66ce
