@@ -1,0 +1,34 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.services__container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff04e;
+    border : solid 5px;
+    width: 100%;
+}
+
+.services__container-content{
+    width: 100%;
+    flex-flow: column wrap;
+    margin: 1rem  ;
+}
+
+.services__word{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 10%;
+    transition: 1s ease ;
+    border : solid 1px;
+}
+
+.services__word:hover{
+    color: red;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
