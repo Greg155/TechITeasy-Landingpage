@@ -3,6 +3,131 @@
     padding: 0;
 }
 
+/*--------------------- Partnership ------------------ */
+.patnership{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h2{
+    display: flex;
+    margin: 1em;
+    font-size: 4em;
+}
+
+hr{
+    border: 2px solid black;
+    width: 90%;
+    text-align:center; margin: 0 auto;
+}
+
+.patnership__content-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 3em;
+    margin: 1em 1em 1em 2em;
+}
+
+/* ------   INTERVIEW --------*/
+.patnership__interview-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+  }
+
+.patnership__interview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
+
+.paternship__interview-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+.interview_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 750px;
+    color: white;
+}
+
+/* ------   PODCAST --------*/
+.patnership__podcast-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+}
+
+.partnership__podcast{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
+
+.paternship__podcast-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+.podcast_text{
+    display: flex;
+    justify-content: center;
+    height: 750px;
+    color: white;
+    
+}
+
+/* ------   EVENT --------*/
+.partnership__event-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+}
+
+.partnership__event{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
+
+.paternship__event-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+.event_text{
+    display: flex;
+    justify-content: center;
+    height: 750px;
+    color: white;
+}
+
+
+
+
+
+/* --------------------  SERVICES ------------------- */
 .services__container{
     display: flex;
     flex-direction: column;
@@ -14,7 +139,7 @@
 .services__container-content{
     width: 100%;
     flex-flow: column wrap;
-    margin: 1rem  ;
+    
 }
 
 .services__word{
@@ -26,6 +151,7 @@
     border : solid 1px;
 }
 
+/* Hover on the terms for switching its color*/ 
 .services__word:hover{
     color: red;
     font-size: 2rem;
