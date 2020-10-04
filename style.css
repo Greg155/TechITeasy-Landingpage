@@ -173,29 +173,35 @@ p{
     background-color: #fff04e;
     border : solid 5px;
     width: 100%;
+    height: 750px;
 }
 
 .services__container-content{
-    width: 100%;
+    width: 80%;
+    margin: 0em 0em 0em 7em;
+    letter-spacing: -1px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: justify;
+    
     
 }
 
 .services__word{
-    font-size: 1em;
+    font-size: 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    line-height: 1.5;
     width: 10%;
     transition: 1s ease ;
-    border : solid 1px;
+   
 }
 
 /* Hover on the terms for switching its color*/ 
 .services__word:hover{
     color: red;
-    font-size: 2rem;
     cursor: pointer;
 }
 
