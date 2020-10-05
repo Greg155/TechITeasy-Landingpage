@@ -5,223 +5,13 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-}
-
-/*--------------------- Partnership ------------------ */
-.patnership{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-h2{
-    display: flex;
-    margin: 1em;
-    font-size: 5em;
-}
-
-hr{
-    border: 2px solid black;
-    width: 90%;
-    text-align:center; margin: 0 auto;
-}
-
-
-.patnership__content-container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-   
-}
-
-h3{
-    font-size: 4em;
-    margin: 1em 1em 1em 2em;
-}
-
-h4{
-    font-size: 3em;
-}
-
-p{
-    font-size: 2em;
+    
     
 }
 
-/* ------   INTERVIEW --------*/
-.patnership__interview-container{
-    display: flex;
-    flex-direction: column;
-    height: 900px;
-    width: 100%;
-    margin: 0px 0px 3em 0px;
-    
-  }
-
-.patnership__interview{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #1F1F1F;
-    height: 100%;
-}
-
-.paternship__interview-image{
-    display: flex;
-    height: 100%;
-    width: 50%;
-}
-
-.interview_text{
-    display: flex;
-    flex-direction: column;
-    height: 750px;
-    color: white;
-}
-
-.span_interview{
-  margin: 75px auto 150px 150px;
-}
-
-.p_interview{
-    text-align: justify;
-    margin: 50px 50px 150px 100px
-}
-
-/* ------   PODCAST --------*/
-.patnership__podcast-container{
-    display: flex;
-    flex-direction: column;
-    height: 900px;
-    width: 100%;
-    margin: 0px 0px 3em 0px;
-}
-
-.partnership__podcast{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background-color: black;
-    height: 100%;
-}
-
-.paternship__podcast-image{
-    display: flex;
-    height: 100%;
-    width: 50%;
-}
-
-.podcast_text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 750px;
-    color: white;
-}
-
-.span_podcast{
-    margin: 75px auto 150px 150px;
-}
-
-.p_podcast{
-    text-align: justify;
-    margin: 50px 50px 150px 100px
-}
 
 
-/* ------   EVENT --------*/
-.partnership__event-container{
-    display: flex;
-    flex-direction: column;
-    height: 900px;
-    width: 100%;
-    margin: 0px 0px 3em 0px;
-}
-
-.partnership__event{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: black;
-    height: 100%;
-}
-
-.paternship__event-image{
-    display: flex;
-    height: 100%;
-    width: 50%;
-}
-
-.event_text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 750px;
-    color: white;
-}
-
-.span_event{
-    margin: 75px auto 150px 150px;
-}
-
-.p_event{
-    text-align: justify;
-    margin: 50px 50px 150px 100px
-}
-
-
-
-
-/* --------------------  SERVICES ------------------ */
-.services__container{
-
-    display: flex;
-    flex-direction: column;
-    background-color: #fff04e;
-    max-width: 100%;
-    height: 750px;
-    
-}
-
-.services__container h2{
-    color: #CCC03E;
-}
-
-.services__container-content{
-   
-    width: 80%;
-    letter-spacing: -1px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    overflow-x: hidden ;
-    flex-wrap: wrap;
-    text-align: justify;
-      
-}
-
-.services__word{
-
-    font-size: 3em;
-    font-weight: bold;
-    color: #CCC03E;
-    margin: 10px;
-    line-height: 1.5;
-    transition: 0.5s ease ;
-   
-}
-
-/* Hover on the terms for switching its color*/ 
-.services__word:hover{
-    color:  #ffffff;
-    cursor: pointer;
-}
-
-
-
-
-
+/* --------------------  Header ------------------ */
 .hero {
     background-image: url("./img/hobby.jpg");
     background-size: cover;
@@ -289,6 +79,253 @@ hr {
     color: black;
     
 }
+
+
+
+
+
+/*--------------------- Partnership ------------------ */
+.partnership{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+h2{
+    display: flex;
+    margin: 1em;
+    font-size: 5em;
+    
+}
+
+hr{
+    
+    border: 2px solid black;
+    width: 90%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.partnership hr{
+    margin: 0em 0em 1em 0em;
+    border: 2px solid white;
+    width: 90%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.partnership__content-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+h3{
+    font-size: 4em;
+    margin: 1em 1em 1em 2em;
+    overflow-y: hidden;
+    
+}
+
+h4{
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+    
+}
+
+/* ------   INTERVIEW --------*/
+.partnership__interview-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+    
+  }
+
+.partnership__interview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__interview-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-image: url(./img/interview_camera.jpg);
+    background-position: top center;
+    position: relative ;
+    background-size: cover;
+}
+
+.interview_text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 750px;
+    color: white;
+}
+
+.span_interview{
+  margin: 75px auto 150px 150px;
+}
+
+.p_interview{
+    text-align: justify;
+    margin: 50px 50px 150px 100px
+}
+
+/* ------   PODCAST --------*/
+.partnership__podcast-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+}
+
+.partnership__podcast{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__podcast-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-image: url(./img/podcast.jpg);
+    background-position: top center;
+    position: relative ;
+    background-size: cover;
+}
+
+.podcast_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 750px;
+    color: white;
+}
+
+.span_podcast{
+    margin: 75px auto 150px 150px;
+}
+
+.p_podcast{
+    text-align: justify;
+    margin: 50px 50px 150px 100px
+}
+
+
+/* ------   EVENT --------*/
+.partnership__event-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+}
+
+.partnership__event{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__event-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-image: url(./img/event.jpg);
+    background-position: top center;
+    position: relative ;
+    background-size: cover;
+}
+
+.event_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 50%;
+    color: white;
+}
+
+.span_event{
+    margin: 75px auto 150px 150px;
+}
+
+.p_event{
+    text-align: justify;
+    margin: 50px 50px 150px 100px
+}
+
+
+
+
+/* --------------------  SERVICES ------------------ */
+.services__container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff04e;
+    max-width: 100%;
+    height: 750px;
+    
+}
+
+.services__container h2{
+    color: #CCC03E;
+}
+
+.services__container-content{
+   
+    width: 80%;
+    letter-spacing: -1px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    overflow-x: hidden ;
+    flex-wrap: wrap;
+    text-align: justify;
+      
+}
+
+.services__word{
+
+    font-size: 3em;
+    font-weight: bold;
+    color: #CCC03E;
+    margin: 10px;
+    line-height: 1.5;
+    transition: 0.5s ease ;
+   
+}
+
+/* Hover on the terms for switching its color*/ 
+.services__word:hover{
+    color:  #ffffff;
+    cursor: pointer;
+}
+
+
+/* --------------------  SUBSCRIBE ------------------ */
 
 .subscribe {
     width: 100%;
