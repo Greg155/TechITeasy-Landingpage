@@ -1,6 +1,7 @@
 *{
     margin : 0;
     padding: 0;
+   
 }
 
 /*--------------------- Partnership ------------------ */
@@ -28,6 +29,7 @@ hr{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+   
 }
 
 h3{
@@ -41,6 +43,7 @@ h4{
 
 p{
     font-size: 2em;
+    
 }
 
 /* ------   INTERVIEW --------*/
@@ -50,13 +53,14 @@ p{
     height: 900px;
     width: 100%;
     margin: 0px 0px 3em 0px;
+    
   }
 
 .patnership__interview{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: black;
+    background-color: #1F1F1F;
     height: 100%;
 }
 
@@ -166,42 +170,48 @@ p{
 
 
 
-/* --------------------  SERVICES ------------------- */
+/* --------------------  SERVICES ------------------ */
 .services__container{
+
     display: flex;
     flex-direction: column;
     background-color: #fff04e;
-    border : solid 5px;
-    width: 100%;
+    max-width: 100%;
     height: 750px;
+    
+}
+
+.services__container h2{
+    color: #CCC03E;
 }
 
 .services__container-content{
+   
     width: 80%;
-    margin: 0em 0em 0em 7em;
     letter-spacing: -1px;
     display: flex;
+    align-self: center;
     justify-content: center;
+    overflow-x: hidden ;
     flex-wrap: wrap;
     text-align: justify;
-    
-    
+      
 }
 
 .services__word{
-    font-size: 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+    font-size: 3em;
+    font-weight: bold;
+    color: #CCC03E;
+    margin: 10px;
     line-height: 1.5;
-    width: 10%;
-    transition: 1s ease ;
+    transition: 0.5s ease ;
    
 }
 
 /* Hover on the terms for switching its color*/ 
 .services__word:hover{
-    color: red;
+    color:  #ffffff;
     cursor: pointer;
 }
 
