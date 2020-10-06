@@ -10,7 +10,6 @@
 }
 
 
-
 /* --------------------  Header ------------------ */
 .hero {
     background-image: url("./img/hobby.jpg");
@@ -101,19 +100,22 @@ h2{
 }
 
 hr{
-    
-    border: 2px solid black;
+    height: 5px;
+    border:solid black;
     width: 90%;
     text-align:center;
-    margin: 0 auto;
 }
 
 .partnership hr{
-    margin: 0em 0em 1em 0em;
+    margin: 0em auto 12em auto;
     border: 2px solid white;
     width: 90%;
     text-align:center;
-    margin: 0 auto;
+    
+}
+
+.partnership h2{
+    margin : 1em 1em 1em 77px;
 }
 
 .partnership__content-container{
@@ -176,13 +178,14 @@ p{
     color: white;
 }
 
-.span_interview{
-  margin: 75px auto 150px 150px;
+.h4_interview{
+  margin: 75px auto 120px 120px;
+  font-size: 4em;
 }
 
 .p_interview{
     text-align: justify;
-    margin: 50px 50px 150px 100px
+    margin: 50px 120px 150px 120px;
 }
 
 /* ------   PODCAST --------*/
@@ -221,13 +224,14 @@ p{
     color: white;
 }
 
-.span_podcast{
-    margin: 75px auto 150px 150px;
+.h4_podcast{
+    margin: 75px auto 120px 120px;
+    font-size: 4em;
 }
 
 .p_podcast{
     text-align: justify;
-    margin: 50px 50px 150px 100px
+    margin: 50px 120px 150px 120px;
 }
 
 
@@ -267,13 +271,14 @@ p{
     color: white;
 }
 
-.span_event{
-    margin: 75px auto 150px 150px;
+.h4_event{
+    margin: 75px auto 120px 120px;
+    font-size: 4em;
 }
 
 .p_event{
     text-align: justify;
-    margin: 50px 50px 150px 100px
+    margin: 50px 120px 150px 120px;
 }
 
 
