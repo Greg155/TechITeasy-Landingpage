@@ -6,15 +6,3 @@
 //     element.addEventListener('mouseover', function(){
 //         element.style.color = "red";
 //     })
-// }
-
-$(function () {
-    $("#testCursor").mousemove(function (e) {
-      $(".cursor").show().css({
-        "left": e.clientX,
-        "top": e.clientY
-      });
-    }).mouseout(function () {
-      $(".cursor").hide();
-    });
-  });
