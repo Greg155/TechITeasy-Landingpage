@@ -4,8 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;  
     
 }
 
@@ -17,7 +16,6 @@
     background-position: top center;
     position: relative;
 }
-
 
 html {
     font-size: 10px;
@@ -185,6 +183,7 @@ p{
 
 .p_interview{
     text-align: justify;
+    font-size: 3em;
     margin: 50px 120px 150px 120px;
 }
 
@@ -231,6 +230,7 @@ p{
 
 .p_podcast{
     text-align: justify;
+    font-size: 3em;
     margin: 50px 120px 150px 120px;
 }
 
@@ -278,6 +278,7 @@ p{
 
 .p_event{
     text-align: justify;
+    font-size: 3em;
     margin: 50px 120px 150px 120px;
 }
 
