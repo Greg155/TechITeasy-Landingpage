@@ -1,26 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
     margin : 0;
     padding: 0;
+    overflow-x: hidden;
+    font-size: 10px;
+}
+
+html {  
+    font-family: 'Bebas Neue', cursive;
 }
 .manifesto{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 500px;
+
+    
+    max-width: 100%;
+    height: 900px;
     color: #023255;
-
-    background-color: #fff04e;
+    background-color: white;
+    
 
 }
-.tech{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.headerP{
+   
+    margin-right: 0px;
+    margin-left: 0px;
     font-size: 35px;
-    background-color: #fff04e;
-    margin: 75px; 
-
+    color: #fff04e;
 }
+
+.TECH{
+    text-align: justify;
+    margin: 100px;
+    width: 80%;
+    font-size: 35px;
+    color: #023255; 
+}
+
+
+
 
 .services__container{
     display: flex;
@@ -52,21 +69,48 @@
 }
 
 .profile{
+    display: flex;
+    flex-flow: row wrap;
     background-color: white;
-    width: 100%;
-    height: 500px;
+    max-width: 100%;
+    height: 900px;
     border: solide 5px;
 }
 .sephora{
-    background-color: #023255;
-    <img
-    src="images/graphique-camembert.png" 
-    alt="[ABC Tech posssède 75% de part de marché et XYZ 25%]"
-    height="300px" 
-    width="300px" 
-/>
-    
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 900px;
+}
+.sephoraImg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-image: url("./img/Sephora.jpg");
+    background-position: top center;
+    background-size: cover;
 }
 .assia{
-    background-color: #023255;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 900px;
+}
+.assiaImg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-image: url("./img/Assia.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.rectangle{
+    height: 50px;
+    width: 100px;
+    background-color:#fff04e;
 }
