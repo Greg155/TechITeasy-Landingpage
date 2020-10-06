@@ -108,7 +108,7 @@ hr{
 
 .partnership hr{
     margin: 0em auto 12em auto;
-    border: 2px solid white;
+    height: 5px;
     width: 90%;
     text-align:center;
     
@@ -296,7 +296,17 @@ p{
 }
 
 .services__container h2{
-    color: #CCC03E;
+    color: #023255;
+}
+
+.services__container hr{
+    margin: 3em auto 10em auto;
+    height: 5px;
+    width: 90%;
+    border: none;
+    background-color:#023255 ;
+    text-align:center;
+    
 }
 
 .services__container-content{
@@ -325,7 +335,7 @@ p{
 
 /* Hover on the terms for switching its color*/ 
 .services__word:hover{
-    color:  #ffffff;
+    color:  #023255;
     cursor: pointer;
 }
 
