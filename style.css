@@ -13,35 +13,7 @@
 html {  
     font-family: 'Bebas Neue', cursive;
 }
-.manifesto{
-
-    max-width: 100%;
-    height: 900px;
-    color: #023255;
-    background-color:#fff04e;
-    
-
-}
-
-.headerP{
-   
-    margin-right: 0px;
-    margin-left: 0px;
-    font-size: 35px;
-    color: white;
-}
-
-.TECH{
-    text-align: justify;
-    margin: 100px;
-    width: 80%;
-    font-size: 35px;
-    color: #023255; 
-}
-
-
-
-
+/*------------------------- HEADER -------------------------------- */
 
 .cursor {
     width: 10px;
@@ -129,10 +101,45 @@ hr {
 }
 
 
+/*----------------------------------- MANIFESTO -----------------------------*/
+
+.manifesto{
+
+    max-width: 100%;
+    height: 900px;
+    color: #023255;
+    background-color:#fff04e;
+    
+
+}
+
+.TECH{
+    text-align: justify;
+    margin: 100px;
+    width: 80%;
+    font-size: 35px;
+    color: #023255; 
+}
+
+.headerP{
+   
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 35px;
+    color: white;
+}
 
 
 
-/*--------------------- Partnership ------------------ */
+
+
+
+
+
+
+
+
+/*------------------------------------ Partnership ------------------------------------- */
 .partnership{
     display: flex;
     flex-wrap: wrap;
@@ -336,7 +343,7 @@ p{
 
 
 
-/* --------------------  SERVICES ------------------ */
+/* --------------------------------------  SERVICES --------------------------------- */
 .services__container{
 
     display: flex;
@@ -391,8 +398,59 @@ p{
     cursor: pointer;
 }
 
+/*------------------------------- PROFILE -------------------------- */
+.profile{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    max-width: 100%;
+    height: 900px;
+    border: solide 5px;
+}
+.sephora{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 900px;
+}
+.sephoraImg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-image: url("./img/Sephora.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+.assia{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 900px;
+}
+.assiaImg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-image: url("./img/Assia.jpg");
+    background-position: top center;
+    background-size: cover;
+}
 
-/* --------------------  SUBSCRIBE ------------------ */
+.rectangle{
+    height: 50px;
+    width: 100px;
+    background-color:#fff04e;
+}
+
+
+
+
+
+/* ----------------------------------------  SUBSCRIBE ---------------------------------- */
 
 .subscribe {
     width: 100%;
@@ -501,49 +559,96 @@ button:hover {
     border: 2px solid #FFF04E;
 }
 
-.profile{
-    display: flex;
-    flex-flow: row wrap;
-    background-color: white;
-    max-width: 100%;
-    height: 900px;
-    border: solide 5px;
-}
-.sephora{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    background-color: white;
-    width: 50%;
-    height: 900px;
-}
-.sephoraImg{
-    display: flex;
-    height: 350px;
-    width: 300px;
-    background-image: url("./img/Sephora.jpg");
-    background-position: top center;
-    background-size: cover;
-}
-.assia{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background-color: white;
-    width: 50%;
-    height: 900px;
-}
-.assiaImg{
-    display: flex;
-    height: 350px;
-    width: 300px;
-    background-image: url("./img/Assia.jpg");
-    background-position: top center;
-    background-size: cover;
-}
 
-.rectangle{
-    height: 50px;
-    width: 100px;
-    background-color:#fff04e;
-}
+
+
+@media only screen and (max-width: 450px) {
+    body {
+        width: 100%;
+    }
+
+    /* ----------  HEADER -------- */
+    .logo{
+        margin-left: -8;
+    }
+    .hero hr{
+        width: 80%;
+        margin-left: 43px;
+    }
+
+    .slogan p{
+        font-size: 11rem;
+    }
+    .arrow{
+        margin-left: 24%
+    }
+
+     /* ----------  Manifesto -------- */
+    .TECH{
+        margin: 100px auto 100px auto;
+    }
+
+
+     /* ----------  partnership -------- */
+
+     .partnership h2{
+        margin-left: 15%;
+     }
+
+     .partnership hr{
+        width: 80%;
+        margin-left: 43px;
+     }
+
+     /* ----------  Interview -------- */
+     .partnership__interview{
+        flex-direction: column;
+        align-items: center;
+        background-color: #1F1F1F;
+        height: 100%;
+    }
+
+    .parternship__interview-image{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .interview_text{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .h4_interview{
+        align-self: center;
+        justify-content: center;
+        margin: 30px 10px 10px 10px;
+    }
+
+    .p_interview{
+        text-align: justify;
+        font-size: 2em;
+        margin: 50px 80px 149px 75px;
+    }
+
+    /* ----------  Podcast -------- */
+    .partnership__podcast{
+        flex-direction: column;
+    }
+
+    .parternship__podcast-image{
+        width: 100%;
+    }
+
+    .p_podcast{
+        font-size: 2em;
+        margin: 50px 80px 149px 75px;
+        height: 100%;
+    }
+
+    /* ----------  Event -------- */
+
+
+
+
+
+  }
