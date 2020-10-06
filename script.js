@@ -58,6 +58,9 @@ const divBottom = (elem) => {
 // }
 
 
+window.addEventListener('scroll', (e) => {
+    console.log(e)
+})
 
 document.onmousemove = (e) => {
     

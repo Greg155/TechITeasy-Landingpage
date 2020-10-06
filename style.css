@@ -18,7 +18,7 @@ html {
     max-width: 100%;
     height: 900px;
     color: #023255;
-    background-color: white;
+    background-color:#fff04e;
     
 
 }
@@ -28,7 +28,7 @@ html {
     margin-right: 0px;
     margin-left: 0px;
     font-size: 35px;
-    color: #fff04e;
+    color: white;
 }
 
 .TECH{
@@ -41,35 +41,6 @@ html {
 
 
 
-
-.services__container{
-    display: flex;
-    flex-direction: column;
-    background-color: #fff04e;
-    border : solid 5px;
-    width: 100%;
-}
-
-.services__container-content{
-    width: 100%;
-    flex-flow: column wrap;
-    margin: 1rem  ;
-}
-
-.services__word{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 10%;
-    transition: 1s ease ;
-    border : solid 1px;
-}
-
-.services__word:hover{
-    color: red;
-    font-size: 2rem;
-    cursor: pointer;
-}
 
 
 .cursor {
@@ -93,10 +64,13 @@ html {
 
 
 .hero {
-    background-image: url("./img/hobby.jpg");
-    background-size: cover;
+    /* //background-image: url("./img/hobby.jpg");
+   / background-size: cover;
     background-position: top center;
-    position: relative;
+    position: relative; */
+    background-color: white;
+    width: 100%;
+
 }
 
 
@@ -154,14 +128,282 @@ hr {
     
 }
 
+
+
+
+
+/*--------------------- Partnership ------------------ */
+.partnership{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+h2{
+    display: flex;
+    margin: 1em;
+    font-size: 5em;
+    
+}
+
+hr{
+    height: 5px;
+    border:solid black;
+    width: 90%;
+    text-align:center;
+}
+
+.partnership hr{
+    margin: 0em auto 12em auto;
+    height: 5px;
+    width: 90%;
+    text-align:center;
+    
+}
+
+.partnership h2{
+    margin : 1em 1em 1em 77px;
+}
+
+.partnership__content-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+h3{
+    font-size: 4em;
+    margin: 1em 1em 1em 2em;
+    overflow-y: hidden;
+    
+}
+
+h4{
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+    
+}
+
+/* ------   INTERVIEW --------*/
+.partnership__interview-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+    
+  }
+
+.partnership__interview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__interview-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-image: url(./img/interview_camera.jpg);
+    background-position: top center;
+    position: relative ;
+    background-size: cover;
+}
+
+.interview_text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 750px;
+    color: white;
+}
+
+.h4_interview{
+  margin: 75px auto 120px 120px;
+  font-size: 4em;
+}
+
+.p_interview{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+/* ------   PODCAST --------*/
+.partnership__podcast-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+}
+
+.partnership__podcast{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__podcast-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-image: url(./img/podcast.jpg);
+    background-position: top center;
+    position: relative ;
+    background-size: cover;
+}
+
+.podcast_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 750px;
+    color: white;
+}
+
+.h4_podcast{
+    margin: 75px auto 120px 120px;
+    font-size: 4em;
+}
+
+.p_podcast{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+
+/* ------   EVENT --------*/
+.partnership__event-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+}
+
+.partnership__event{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__event-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-image: url(./img/event.jpg);
+    background-position: top center;
+    position: relative ;
+    background-size: cover;
+}
+
+.event_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 50%;
+    color: white;
+}
+
+.h4_event{
+    margin: 75px auto 120px 120px;
+    font-size: 4em;
+}
+
+.p_event{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+
+
+
+/* --------------------  SERVICES ------------------ */
+.services__container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff04e;
+    max-width: 100%;
+    height: 900px;
+    
+}
+
+.services__container h2{
+    color: #023255;
+}
+
+.services__container hr{
+    margin: 3em auto 10em auto;
+    height: 5px;
+    width: 90%;
+    border: none;
+    background-color:#023255 ;
+    text-align:center;
+    
+}
+
+.services__container-content{
+   
+    width: 80%;
+    letter-spacing: -1px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    overflow-x: hidden ;
+    flex-wrap: wrap;
+    text-align: justify;
+      
+}
+
+.services__word{
+
+    font-size: 3em;
+    font-weight: bold;
+    color: #CCC03E;
+    margin: 10px;
+    line-height: 1.5;
+    transition: 0.5s ease ;
+   
+}
+
+/* Hover on the terms for switching its color*/ 
+.services__word:hover{
+    color:  #023255;
+    cursor: pointer;
+}
+
+
+/* --------------------  SUBSCRIBE ------------------ */
+
 .subscribe {
     width: 100%;
     height: 900px;
     background-color: white;
+    overflow-y: hidden;
 
 }
 
 .contact {
+    overflow-y: hidden;
     width: 100%;
     height: 900px;
     background-color: white;
@@ -209,6 +451,10 @@ hr {
     font-size: 3rem;
 }
 
+.info p {
+    overflow-y: hidden;
+}
+
 
 .subForm {
     width: 100%;
@@ -250,8 +496,6 @@ button {
     justify-self: center;
     
 }
-
-
 
 button:hover {
     border: 2px solid #FFF04E;
