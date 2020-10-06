@@ -1,17 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    cursor: none
+    cursor: none;
+    font-size: 10px;
 }
 
-section {
-    max-width: 100%;
-    max-height: 1;
+html {  
+    font-family: 'Bebas Neue', cursive;
 }
+.manifesto{
+
+    max-width: 100%;
+    height: 900px;
+    color: #023255;
+    background-color: white;
+    
+
+}
+
+.headerP{
+   
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 35px;
+    color: #fff04e;
+}
+
+.TECH{
+    text-align: justify;
+    margin: 100px;
+    width: 80%;
+    font-size: 35px;
+    color: #023255; 
+}
+
+
+
 
 .services__container{
     display: flex;
@@ -70,12 +99,6 @@ section {
     position: relative;
 }
 
-
-html {
-    font-size: 10px;
-    font-family: 'montserrat';
- 
-}
 
 
 .logo img {
@@ -232,4 +255,51 @@ button {
 
 button:hover {
     border: 2px solid #FFF04E;
+}
+
+.profile{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    max-width: 100%;
+    height: 900px;
+    border: solide 5px;
+}
+.sephora{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 900px;
+}
+.sephoraImg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-image: url("./img/Sephora.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+.assia{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 900px;
+}
+.assiaImg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-image: url("./img/Assia.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.rectangle{
+    height: 50px;
+    width: 100px;
+    background-color:#fff04e;
 }
