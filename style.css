@@ -107,35 +107,25 @@ hr {
 
     max-width: 100%;
     height: 900px;
-    color: #023255;
-    background-color:#fff04e;
-    
-
+    background-color:#023255;
+   
 }
 
 .TECH{
     text-align: justify;
-    margin: 100px;
+    margin: 100px 70px 0px 145px;
     width: 80%;
-    font-size: 35px;
-    color: #023255; 
+    font-size: 60px;
+    color: #fff04e; 
 }
 
 .headerP{
    
     margin-right: 0px;
     margin-left: 0px;
-    font-size: 35px;
+    font-size: 60px;
     color: white;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -148,7 +138,7 @@ hr {
     
 }
 
-h2{
+.partnership h2{
     display: flex;
     margin: 1em;
     font-size: 5em;
@@ -217,13 +207,9 @@ p{
 }
 
 .parternship__interview-image{
-    display: flex;
     height: 100%;
     width: 50%;
-    background-image: url(./img/interview_camera.jpg);
-    background-position: top center;
-    position: relative ;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .interview_text{
@@ -263,13 +249,9 @@ p{
 }
 
 .parternship__podcast-image{
-    display: flex;
     height: 100%;
     width: 50%;
-    background-image: url(./img/podcast.jpg);
-    background-position: top center;
-    position: relative ;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .podcast_text{
@@ -311,13 +293,9 @@ p{
 }
 
 .parternship__event-image{
-    display: flex;
     height: 100%;
     width: 50%;
-    background-image: url(./img/event.jpg);
-    background-position: top center;
-    position: relative ;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .event_text{
@@ -354,12 +332,16 @@ p{
     
 }
 
+
 .services__container h2{
     color: #023255;
+    display: flex;
+    margin: 50px 70px 0px 70px;
+    font-size: 5em;
 }
 
 .services__container hr{
-    margin: 3em auto 10em auto;
+    margin: 3em auto 100px 71px;
     height: 5px;
     width: 90%;
     border: none;
@@ -369,7 +351,9 @@ p{
 }
 
 .services__container-content{
-   
+    
+    margin-top: 10px;
+    font-size: 2em;
     width: 80%;
     letter-spacing: -1px;
     display: flex;
@@ -450,7 +434,7 @@ p{
 
 
 
-/* ----------------------------------------  SUBSCRIBE ---------------------------------- */
+/* ----------------------------------------  SUBSCRIBE  // Contact ---------------------------------- */
 
 .subscribe {
     width: 100%;
@@ -460,6 +444,9 @@ p{
 
 }
 
+.buttonDiv span{
+    font-size: 15px;
+}
 .contact {
     overflow-y: hidden;
     width: 100%;
@@ -471,11 +458,15 @@ p{
 }
 
 .contact h2 {
-    margin-left: 70px;
+    margin : 30px 70px;
     font-weight: bold;
     font-size: 100px;
-    padding-bottom: 30px;
+    
 
+}
+
+.contact hr{
+    margin-left: 72px;
 }
 
 .subscribe .subHead h2 {
@@ -562,6 +553,9 @@ button:hover {
 
 
 
+
+/* ------------------------------------------------  RESPONSIVE IPHONE 6/7/8 PLUS ----------------------------------------------- */
+
 @media only screen and (max-width: 450px) {
     body {
         width: 100%;
@@ -571,9 +565,21 @@ button:hover {
     .logo{
         margin-left: -8;
     }
+
+    .hero-container{
+        margin-left: 44px;
+    }
+
     .hero hr{
         width: 80%;
         margin-left: 43px;
+        margin-bottom: 50px;
+    }
+
+    .arrow{
+        top: 375px;
+        margin-left: 0px;
+        left : 250px;
     }
 
     .slogan p{
@@ -585,7 +591,12 @@ button:hover {
 
      /* ----------  Manifesto -------- */
     .TECH{
-        margin: 100px auto 100px auto;
+        margin: 85px 33px 100px 40px;
+        font-size: 30px;
+    }
+
+    .headerP{
+        font-size: 50px;
     }
 
 
@@ -620,7 +631,6 @@ button:hover {
     
     .h4_interview{
         align-self: center;
-        justify-content: center;
         margin: 30px 10px 10px 10px;
     }
 
@@ -689,6 +699,30 @@ button:hover {
 
     /* ----------  Services -------- */
 
+    .services__container h2{
+        overflow-y: hidden;
+        margin: 1em;
+    }
+
+    .services__container hr{
+        margin: 0em 0px 3em 40px;
+        height: 5px;
+        width: 80%; 
+        border: solid #023255
+    }
+    
+    .services__word{
+
+        font-size: 30px;
+        font-weight: bold;
+        color: #CCC03E;
+        margin: 10px;
+        line-height: 1.5;
+        transition: 0.5s ease ;
+       
+    }
+
+
     /* ----------  Profile -------- */
         
 
@@ -723,6 +757,82 @@ button:hover {
         margin-left: 6rem;
         font-size: 2rem;
     }
+
+
+  }
+
+  /* ------------------------------------------------  RESPONSIVE IPAD ------------------------------------------------------------ */
+
+  @media screen and (min-width: 451px) and (max-width: 800px) {
+    
+    body {
+        width: 100%;
+    }
+
+    /* ----------  HEADER -------- */
+    .logo{
+        margin-left: -38px;
+    }
+    
+    .hero hr{
+        width: 90%;
+        margin-left: 41px;
+    }
+
+    .slogan{
+        margin-top: 25px;
+    }
+
+    .slogan p {
+        font-size: 15rem;
+    }
+
+     /* ----------  Manifesto -------- */
+    
+     .TECH{
+        margin: 100px 85px 100px 85px;
+        font-size: 45px;
+    }   
+
+    .headerP {
+        font-size: 45px;
+    }
+
+
+    /* ----------  partnership -------- */
+
+
+    .partnership h2{
+        margin: 1em 1em 1em 59px;
+     }
+
+     .partnership hr{
+        margin: 0em auto 12em auto;
+        height: 5px;
+        width: 85%;
+        text-align: center;
+     }
+
+
+    /* ----------  Interview ---------- */
+
+    .partnership__interview{
+        flex-direction: column;
+        align-items: center;
+        background-color: #1F1F1F;
+        height: 100%;
+    }
+
+    .parternship__interview-image{
+        width: 100%;
+    }
+
+    .interview_text{
+        height: 900px;
+    }
+    /* ----------  Podcast ------------ */
+
+    /* ----------  Event -------------- */
 
 
   }
