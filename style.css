@@ -12,8 +12,24 @@
 
 html {  
     font-family: 'Bebas Neue', cursive;
+    height: 100%;
+    
 }
-/*------------------------- HEADER -------------------------------- */
+
+body {
+    
+    height: 100%;
+}
+.manifesto{
+
+    max-width: 100%;
+    min-height: 100vh;
+    color: #023255;
+    background-color:#fff04e;
+    
+
+}
+
 
 .cursor {
     width: 10px;
@@ -26,12 +42,31 @@ html {
     background: white;
     z-index: 1;
     mix-blend-mode: difference;
-    transition: height 200ms ease, width 200ms ease;
+    transition: height 200ms ease, width 200ms ease, border-radius 200ms ease;
 }
 
 .cursor_big {
     width: 30px;
     height: 30px;
+}
+
+.cursor_carre {
+    border-radius: 0;
+}
+
+.cursor_triangle {
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 6px solid transparent;
+    border-bottom : 10px solid red;
+    border-left : 6px solid transparent;
+}
+/* -------------------------------------------- */
+
+
+.cubeAnim {
+    position: relative;
 }
 
 
@@ -42,6 +77,10 @@ html {
     position: relative; */
     background-color: white;
     width: 100%;
+    min-height: 100vh;
+    display : flex;
+    flex-direction: column;
+
 
 }
 
@@ -52,21 +91,18 @@ html {
     margin-left: 30px;
  
 }
-.cube img {
-    width: 350px;
-    height: 350px;
+.cube{
     display: block;
     position: absolute;
-    bottom: 300px;
-    left: 950px; 
+    left: 600px;
+    bottom: 400px;
 }
 
 .arrow {
     
     width: 350px;
     height: 350px;
-    position: absolute;
-    bottom: 0;
+    align-self: flex-start; 
     
 }
 
@@ -82,14 +118,13 @@ hr {
     width: 100%;
     height: 100%;
     margin-left: 70px;
-    overflow-y: hidden;
-    position: relative;
-    
+    overflow-y: hidden;    
 }
 
 .slogan{
+    overflow-y: hidden;
     width: 100%;
-    height: 800px;
+    height: 400px;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -97,6 +132,7 @@ hr {
 }
 
 .slogan p {
+    overflow-y: hidden;
     font-size: 17rem;
     color: black;
     
@@ -114,11 +150,10 @@ hr {
 }
 
 .TECH{
-    text-align: justify;
-    margin: 100px 70px 0px 145px;
-    width: 80%;
+    margin: 120px 0px 0px 60px;
+    width: 70%;
     font-size: 60px;
-    color: #fff04e; 
+    color: white; 
 }
 
 .headerP{
@@ -126,7 +161,15 @@ hr {
     margin-right: 0px;
     margin-left: 0px;
     font-size: 60px;
+    color: #FFF04E;
+}
+
+.secondP {
     color: white;
+    margin: 0;
+    font-size: 35px;
+    margin: 120px 0px 0px 60px;
+    width: 60%;
 }
 
 
@@ -340,7 +383,7 @@ p{
     flex-direction: column;
     background-color: #fff04e;
     max-width: 100%;
-    height: 900px;
+    min-height: 100vh;
     
 }
 
@@ -353,7 +396,7 @@ p{
 }
 
 .services__container hr{
-    margin: 0px auto 100px 71px;
+    margin: 0px auto 70px 71px;
     height: 5px;
     width: 90%;
     border: none;
@@ -364,7 +407,7 @@ p{
 
 .services__container-content{
     
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 2em;
     width: 80%;
     letter-spacing: -1px;
@@ -395,53 +438,138 @@ p{
 }
 
 /*------------------------------- PROFILE -------------------------- */
-.profile{
+.profileContainer{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     background-color: white;
     max-width: 100%;
-    height: 900px;
-    border: solide 5px;
+    padding: 70px;
 }
+
+.profileContainer h2{
+    font-size: 5rem;
+    overflow-y: hidden;
+    margin-bottom: 8rem;
+}
+
+.profileContainer hr{
+    height: 5px;
+    width: 100%;
+    margin : 0px;
+}
+
+.profileTeam{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+
 .sephora{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
     width: 50%;
     height: 900px;
 }
-.sephoraImg{
+
+.sephoraImgContainer{
     display: flex;
-    height: 350px;
-    width: 300px;
-    background-image: url("./img/Sephora.jpg");
-    background-position: top center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.sephoraImage{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background-image: url("./img/Sephora_detourage.png");
+    background-color: #fff04e;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center; 
     background-size: cover;
 }
+
+.sephoraImgContainer h4{
+    display: flex;
+    height: 5%;
+    width: 100%;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+}
+
+.textSephora{
+    width: 50%;
+    margin-left: 5px;
+}
+
+.divider {
+    padding: 0px 0px 0px 10px;
+}
+
+
 .assia{
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
     width: 50%;
     height: 900px;
 }
-.assiaImg{
+
+
+.assiaImgContainer{
     display: flex;
-    height: 350px;
-    width: 300px;
-    background-image: url("./img/Assia.jpg");
-    background-position: top center;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.assiaImage{
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background-image: url("./img/Assia_detourage.png");
+    background-color: #fff04e;
+    background-repeat: no-repeat;
+    background-position: top center; 
     background-size: cover;
 }
 
-.rectangle{
-    height: 50px;
-    width: 100px;
-    background-color:#fff04e;
+
+.assiaImgContainer h4{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+    font-size: 30px;
+    color: black;
 }
 
+
+.textAssia{
+    width: 50%;
+    text-align: right;
+    margin-right: 5px;
+}
+
+
+.divider {
+    padding: 0px 0px 0px 10px;
+    font-size: 10px;
+}
+
+
+.textSephora p, .textAssia p{ 
+    display: inline;
+    background-color:#fff04e;
+    background-size: 14px;
+    font-size: 25px;
+}
 
 
 
@@ -450,9 +578,12 @@ p{
 
 .subscribe {
     width: 100%;
-    height: 900px;
-    background-color: white;
+    min-height: 100vh;
+    background-color: #1F1F1F;
     overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -462,7 +593,7 @@ p{
 .contact {
     overflow-y: hidden;
     width: 100%;
-    height: 900px;
+    min-height: 100vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -482,17 +613,14 @@ p{
     margin-left: 72px;
 }
 
-.contact_container{
-    display: flex;
-    flex-wrap: row wrap;
+
+.arrow_black {
+    align-self: flex-end;
+    margin-right: 50px;
+    padding-bottom: 50px;
 }
 
-.contact_logo{
-    display: flex;
-    align-self: flex-start;
-    overflow-y: hidden;
 
-}
 
 .subscribe .subHead h2 {
     margin: 0 0 .85em 0;
@@ -514,7 +642,7 @@ p{
 
 .info{
     display: flex;
-    width: 50%;
+    width: 100%;
     height: 600px;
     flex-direction: column;
     align-self: center;
