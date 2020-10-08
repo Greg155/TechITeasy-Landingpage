@@ -132,6 +132,7 @@ hr {
 
 
 /*------------------------------------ Partnership ------------------------------------- */
+
 .partnership{
     display: flex;
     flex-wrap: wrap;
@@ -144,7 +145,6 @@ hr {
     display: flex;
     margin: 1em;
     font-size: 5em;
-    
 }
 
 hr{
@@ -171,14 +171,13 @@ hr{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-   
+    height: 100%;
 }
 
 h3{
     font-size: 4em;
     margin: 1em 1em 1em 2em;
     overflow-y: hidden;
-    
 }
 
 h4{
@@ -187,18 +186,21 @@ h4{
 
 p{
     font-size: 2em;
-    
 }
 
+
+
 /* ------   INTERVIEW --------*/
+
+
 .partnership__interview-container{
     display: flex;
     flex-direction: column;
     height: 900px;
     width: 100%;
     margin: 0px 0px 0em 0px;
-    
   }
+
 
 .partnership__interview{
     display: flex;
@@ -208,7 +210,7 @@ p{
     height: 100%;
 }
 
-.parternship__interview-image{
+.partnership__interview-image{
     height: 100%;
     width: 50%;
     object-fit: cover;
@@ -233,7 +235,12 @@ p{
     margin: 50px 120px 150px 120px;
 }
 
+
+
+
 /* ------   PODCAST --------*/
+
+
 .partnership__podcast-container{
     display: flex;
     flex-direction: column;
@@ -250,7 +257,7 @@ p{
     height: 100%;
 }
 
-.parternship__podcast-image{
+.partnership__podcast-image{
     height: 100%;
     width: 50%;
     object-fit: cover;
@@ -277,7 +284,10 @@ p{
 }
 
 
+
 /* ------   EVENT --------*/
+
+
 .partnership__event-container{
     display: flex;
     flex-direction: column;
@@ -294,7 +304,7 @@ p{
     height: 100%;
 }
 
-.parternship__event-image{
+.partnership__event-image{
     height: 100%;
     width: 50%;
     object-fit: cover;
@@ -651,7 +661,7 @@ button:hover {
         height: 100%;
     }
 
-    .parternship__interview-image{
+    .partnership__interview-image{
         height: 100%;
         width: 100%;
     }
@@ -677,7 +687,7 @@ button:hover {
         flex-direction: column;
     }
 
-    .parternship__podcast-image{
+    .partnership__podcast-image{
         width: 100%;
     }
 
@@ -705,7 +715,7 @@ button:hover {
         flex-direction: column;
     }
 
-    .parternship__event-image{
+    .partnership__event-image{
         width: 100%;
     }
 
@@ -873,7 +883,7 @@ button:hover {
         height: 100%;
     }
 
-    .parternship__interview-image{
+    .partnership__interview-image{
         width: 100%;
     }
 
@@ -896,7 +906,7 @@ button:hover {
         flex-flow: column;
         align-items: center;
         background-color: #1F1F1F;
-        height: 100%;
+        height: 100%;   
     }
 
     .partnership__podcast-image{
@@ -905,6 +915,17 @@ button:hover {
         object-fit: cover;
     }
 
+    .podcast_text{
+        width: 100%;
+    }
+
+    .h4_podcast{
+        margin: 50px 0px 0px 100px;
+    }
+
+    .p_podcast{
+        margin: 75px 120px 0px 100px;
+    }
     /* ----------  Event -------------- */
     
     .partnership__event{
@@ -912,10 +933,13 @@ button:hover {
         align-items: center;
         background-color: #1F1F1F;
         height: 100%;
+        width : 100%
     }
 
     .partnership__event-image{
+        height: 100%;
         width: 100%;
+        object-fit: cover;
     }
 
     .event_text{
@@ -935,8 +959,13 @@ button:hover {
 
     .services__container h2{
         overflow-y: hidden;
+        margin: 1em 1em 1em 59px;
     }
 
+    .services__container hr{
+        margin: 0em auto 12em auto;
+        width: 85%;
+    }
     .services__word{
         font-size: 2em;
     }
