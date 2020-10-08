@@ -30,25 +30,6 @@ body {
 
 }
 
-.headerP{
-   
-    margin-right: 0px;
-    margin-left: 0px;
-    font-size: 35px;
-    color: white;
-}
-
-.TECH{
-    text-align: justify;
-    margin: 100px;
-    width: 80%;
-    font-size: 35px;
-    color: #023255; 
-}
-
-
-
-
 
 .cursor {
     width: 10px;
@@ -163,32 +144,31 @@ hr {
 .manifesto{
 
     max-width: 100%;
-    height: 900px;
+    min-height: 100vh;
     background-color:#023255;
    
 }
 
 .TECH{
-    text-align: justify;
-    margin: 120px 0px 0px 90px;
-    width: 60%;
+    margin: 120px 0px 0px 60px;
+    width: 70%;
     font-size: 60px;
-    color: white; 
+    color: white;
+    position: relative;
 }
 
 .headerP{
     margin-right: 0px;
     margin-left: 0px;
     font-size: 60px;
-    color: #3b5686;
+    color: #FFF04E;
 }
 
 .secondP {
     color: white;
     margin: 0;
-    font-size: 30px;
-    text-align: justify;
-    margin: 120px 0px 0px 90px;
+    font-size: 35px;
+    margin: 120px 0px 0px 60px;
     width: 60%;
 }
 
@@ -416,7 +396,7 @@ p{
 }
 
 .services__container hr{
-    margin: 0px auto 100px 71px;
+    margin: 0px auto 70px 71px;
     height: 5px;
     width: 90%;
     border: none;
@@ -427,7 +407,7 @@ p{
 
 .services__container-content{
     
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 2em;
     width: 80%;
     letter-spacing: -1px;
@@ -454,7 +434,6 @@ p{
 /* Hover on the terms for switching its color*/ 
 .services__word:hover{
     color:  #023255;
-    cursor: pointer;
 }
 
 /*------------------------------- PROFILE -------------------------- */
@@ -504,7 +483,8 @@ p{
     display: flex;
     height: 450px;
     width: 100%;
-    background-image: url("./img/SephoraEnfin.jpg");
+    background-image: url("./img/Sephora_detourage.png");
+    background-color: #fff04e;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center; 
@@ -515,8 +495,8 @@ p{
     display: flex;
     height: 5%;
     width: 100%;
-    font-size: 23px;
-    background-color: #fff04e;
+    font-size: 30px;
+    color: black;
     justify-content: center;
 }
 
@@ -552,7 +532,8 @@ p{
     display: flex;
     height: 450px;
     width: 100%;
-    background-image: url("./img/AssiaEnfin.jpg");
+    background-image: url("./img/Assia_detourage.png");
+    background-color: #fff04e;
     background-repeat: no-repeat;
     background-position: top center; 
     background-size: cover;
@@ -564,8 +545,8 @@ p{
     justify-content: center;
     height: 20%;
     width: 100%;
-    font-size: 23px;
-    background-color: #fff04e;
+    font-size: 30px;
+    color: black;
 }
 
 

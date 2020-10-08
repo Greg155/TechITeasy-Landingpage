@@ -111,6 +111,12 @@ window.onload = () => {
             cursor.classList.add('cursor_carre')
         }
 
+        if (e.target.classList.value === "partnership") {
+            console.log(e.target.classList.value)
+            cursor.classList.remove('*')
+            cursor.classList.add('cursor')
+            cursor.classList.add('cursor_carre')
+        }
 
         if (e.target.classList.value === "subscribe") {
             console.log(e.target.classList.value)
@@ -158,5 +164,6 @@ window.onload = () => {
 
 
     
+
 
 
