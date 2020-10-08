@@ -47,7 +47,10 @@ window.onload = () => {
     let bottom = 400
     let currentScroll = 0;
     document.body.addEventListener('scroll', (e) => {
-       console.log(e.timeStamp)
+       console.log(document.body.scrollTop/2)
+       cube.style.transform = `translate(${document.body.scrollTop/2}px,${document.body.scrollTop/2}px)`
+
+       /*
 
         if (currentScroll < document.body.scrollTop) {
             left +=5
@@ -63,7 +66,8 @@ window.onload = () => {
         cube.style.bottom = `${bottom}px`
         currentScroll = document.body.scrollTop
 
-        console.log(left)
+        //console.log(left)
+        */
     })
 
     
