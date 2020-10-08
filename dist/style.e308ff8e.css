@@ -1,0 +1,553 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    cursor: none;
+    font-size: 10px;
+}
+
+html {  
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+    
+}
+
+body {
+    
+    height: 100%;
+}
+.manifesto{
+
+    max-width: 100%;
+    min-height: 100vh;
+    color: #023255;
+    background-color:#fff04e;
+    
+
+}
+
+.headerP{
+   
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 35px;
+    color: white;
+}
+
+.TECH{
+    text-align: justify;
+    margin: 100px;
+    width: 80%;
+    font-size: 35px;
+    color: #023255; 
+}
+
+
+
+
+
+.cursor {
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: white;
+    z-index: 1;
+    mix-blend-mode: difference;
+    transition: height 200ms ease, width 200ms ease;
+}
+
+.cursor_big {
+    width: 30px;
+    height: 30px;
+}
+
+
+.hero {
+    /* //background-image: url("./img/hobby.jpg");
+   / background-size: cover;
+    background-position: top center;
+    position: relative; */
+    background-color: white;
+    width: 100%;
+    min-height: 100vh
+
+}
+
+
+
+.logo img {
+    height: 120px;
+    margin-left: 30px;
+ 
+}
+.cube{
+    width: 350px;
+    height: 350px;
+    display: block;
+    position: absolute;
+    bottom: 300px;
+    left: 950px; 
+}
+
+.arrow {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+}
+
+hr {
+    width: 90%;
+    margin-left: 80px;
+    height:5px;
+    border-width:0;
+    color:black;
+    background-color:black;
+}
+.hero-container {
+    width: 100%;
+    height: 100%;
+    margin-left: 70px;
+    overflow-y: hidden;
+    position: relative;
+    
+}
+
+.slogan{
+    width: 100%;
+    height: 800px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.slogan p {
+    font-size: 17rem;
+    color: black;
+    
+}
+
+
+
+
+
+/*--------------------- Partnership ------------------ */
+.partnership{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+h2{
+    display: flex;
+    margin: 1em;
+    font-size: 5em;
+    
+}
+
+hr{
+    height: 5px;
+    border:solid black;
+    width: 90%;
+    text-align:center;
+}
+
+.partnership hr{
+    margin: 0em auto 12em auto;
+    height: 5px;
+    width: 90%;
+    text-align:center;
+    
+}
+
+.partnership h2{
+    margin : 1em 1em 1em 77px;
+}
+
+.partnership__content-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+h3{
+    font-size: 4em;
+    margin: 1em 1em 1em 2em;
+    overflow-y: hidden;
+    
+}
+
+h4{
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+    
+}
+
+/* ------   INTERVIEW --------*/
+.partnership__interview-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+    
+  }
+
+.partnership__interview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__interview-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.interview_text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 750px;
+    color: white;
+}
+
+.h4_interview{
+  margin: 75px auto 120px 120px;
+  font-size: 4em;
+}
+
+.p_interview{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+/* ------   PODCAST --------*/
+.partnership__podcast-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+}
+
+.partnership__podcast{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__podcast-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.podcast_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 750px;
+    color: white;
+}
+
+.h4_podcast{
+    margin: 75px auto 120px 120px;
+    font-size: 4em;
+}
+
+.p_podcast{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+
+/* ------   EVENT --------*/
+.partnership__event-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+}
+
+.partnership__event{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.parternship__event-image{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.event_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 50%;
+    color: white;
+}
+
+.h4_event{
+    margin: 75px auto 120px 120px;
+    font-size: 4em;
+}
+
+.p_event{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+
+
+
+/* --------------------  SERVICES ------------------ */
+.services__container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff04e;
+    max-width: 100%;
+    min-height: 100vh;
+    
+}
+
+.services__container h2{
+    color: #023255;
+}
+
+.services__container hr{
+    margin: 3em auto 10em auto;
+    height: 5px;
+    width: 90%;
+    border: none;
+    background-color:#023255 ;
+    text-align:center;
+    
+}
+
+.services__container-content{
+   
+    width: 80%;
+    letter-spacing: -1px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    overflow-x: hidden ;
+    flex-wrap: wrap;
+    text-align: justify;
+      
+}
+
+.services__word{
+
+    font-size: 3em;
+    font-weight: bold;
+    color: #CCC03E;
+    margin: 10px;
+    line-height: 1.5;
+    transition: 0.5s ease ;
+   
+}
+
+/* Hover on the terms for switching its color*/ 
+.services__word:hover{
+    color:  #023255;
+    cursor: pointer;
+}
+
+
+/* --------------------  SUBSCRIBE ------------------ */
+
+.subscribe {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1F1F1F;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact {
+    overflow-y: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact h2 {
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 100px;
+    padding-bottom: 30px;
+
+}
+
+.subscribe .subHead h2 {
+    margin: 0 0 .85em 0;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.subHead {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #1F1F1F;
+    padding: 6em 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    color: black;
+    padding-top: 30px;
+    margin-left: 150px;
+    font-size: 3rem;
+}
+
+.info p {
+    overflow-y: hidden;
+}
+
+
+.subForm {
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    padding: 1em 0 .8em;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.5;
+    color: inherit;
+    outline: none;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    display: flex;
+    all: unset;
+    margin-top: 2.4em;
+    background: transparent;
+    border: 2px solid white;
+    padding: 1em 4em;
+    border-radius: 50px;
+    font-weight: 700;
+    transition: all 300ms ease;
+    justify-self: center;
+    
+}
+
+button:hover {
+    border: 2px solid #FFF04E;
+}
+
+.profile{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    max-width: 100%;
+    height: 900px;
+    border: solide 5px;
+}
+.sephora{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 900px;
+}
+.sephoraImg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-image: url("/Sephora.d49272a2.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+.assia{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 900px;
+}
+.assiaImg{
+    display: flex;
+    height: 350px;
+    width: 300px;
+    background-image: url("/Assia.5af0d18d.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.rectangle{
+    height: 50px;
+    width: 100px;
+    background-color:#fff04e;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
