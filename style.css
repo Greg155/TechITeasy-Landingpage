@@ -84,13 +84,386 @@ body {
 /* -------------------------------------------- */
 
 
+.cubeAnim {
+    position: relative;
+}
+
+
+.hero {
+    /* //background-image: url("./img/hobby.jpg");
+   / background-size: cover;
+    background-position: top center;
+    position: relative; */
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+    display : flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.logo img {
+    height: 120px;
+    margin-left: 30px;
+ 
+}
+.cube{
+    display: block;
+    position: absolute;
+    left: 600px;
+    bottom: 400px;
+}
+
+.arrow {
+    
+    width: 350px;
+    height: 350px;
+    align-self: flex-start; 
+    
+}
+
+hr {
+    width: 90%;
+    margin-left: 80px;
+    height:5px;
+    border-width:0;
+    color:black;
+    background-color:black;
+}
+.hero-container {
+    width: 100%;
+    height: 100%;
+    margin-left: 70px;
+    overflow-y: hidden;    
+}
+
+.slogan{
+    overflow-y: hidden;
+    width: 100%;
+    height: 400px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.slogan p {
+    overflow-y: hidden;
+    font-size: 17rem;
+    color: black;
+    
+}
+
+
+/*----------------------------------- MANIFESTO -----------------------------*/
+
+.manifesto{
+
+    max-width: 100%;
+    height: 900px;
+    background-color:#023255;
+   
+}
+
+.TECH{
+    text-align: justify;
+    margin: 120px 0px 0px 90px;
+    width: 60%;
+    font-size: 60px;
+    color: white; 
+}
+
+.headerP{
+   
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 60px;
+    color: #3b5686;
+}
+
+.secondP {
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    text-align: justify;
+    margin: 120px 0px 0px 90px;
+    width: 60%;
+}
+
+
+
+/*------------------------------------ Partnership ------------------------------------- */
+
+.partnership{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+.partnership h2{
+    display: flex;
+    margin: 1em;
+    font-size: 5em;
+}
+
+hr{
+    height: 5px;
+    border:solid black;
+    width: 90%;
+    text-align:center;
+}
+
+.partnership hr{
+    margin: 0em auto 12em auto;
+    height: 5px;
+    width: 90%;
+    text-align:center;
+    
+}
+
+.partnership h2{
+    margin : 1em 1em 1em 77px;
+}
+
+.partnership__content-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+h3{
+    font-size: 4em;
+    margin: 1em 1em 1em 2em;
+    overflow-y: hidden;
+}
+
+h4{
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+}
+
+
+
+/* ------   INTERVIEW --------*/
+
+
+.partnership__interview-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+  }
+
+
+.partnership__interview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.partnership__interview-image{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.interview_text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 750px;
+    color: white;
+}
+
+.h4_interview{
+  margin: 75px auto 120px 120px;
+  font-size: 4em;
+}
+
+.p_interview{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+
+
+
+/* ------   PODCAST --------*/
+
+
+.partnership__podcast-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+}
+
+.partnership__podcast{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.partnership__podcast-image{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.podcast_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 750px;
+    color: white;
+}
+
+.h4_podcast{
+    margin: 75px auto 120px 120px;
+    font-size: 4em;
+}
+
+.p_podcast{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+
+
+/* ------   EVENT --------*/
+
+
+.partnership__event-container{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    margin: 0px 0px 0em 0px;
+}
+
+.partnership__event{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 100%;
+}
+
+.partnership__event-image{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.event_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 50%;
+    color: white;
+}
+
+.h4_event{
+    margin: 75px auto 120px 120px;
+    font-size: 4em;
+}
+
+.p_event{
+    text-align: justify;
+    font-size: 3em;
+    margin: 50px 120px 150px 120px;
+}
+
+
+
+
+/* --------------------------------------  SERVICES --------------------------------- */
+.services__container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff04e;
+    max-width: 100%;
+    min-height: 100vh;
+    
+}
+
+
+.services__container h2{
+    color: #023255;
+    display: flex;
+    margin: 50px 70px 50px 70px;
+    font-size: 5em;
+}
+
+.services__container hr{
+    margin: 0px auto 100px 71px;
+    height: 5px;
+    width: 90%;
+    border: none;
+    background-color:#023255 ;
+    text-align:center;
+    
+}
+
+.services__container-content{
+    
+    margin-top: 10px;
+    font-size: 2em;
+    width: 80%;
+    letter-spacing: -1px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    overflow-x: hidden ;
+    flex-wrap: wrap;
+    text-align: justify;
+      
+}
+
+.services__word{
+
+    font-size: 3em;
+    font-weight: bold;
+    color: #CCC03E;
+    margin: 10px;
+    line-height: 1.5;
+    transition: 0.5s ease ;
+   
+}
+
+/* Hover on the terms for switching its color*/ 
+.services__word:hover{
+    color:  #023255;
+    cursor: pointer;
+}
+
+/*------------------------------- PROFILE -------------------------- */
 .profileContainer{
     display: flex;
     flex-direction: column;
     background-color: white;
     max-width: 100%;
-    height: 900px;
-    border: solide 5px;
     padding: 70px;
 }
 
@@ -218,328 +591,9 @@ body {
 }
 
 
-.hero {
-    /* //background-image: url("./img/hobby.jpg");
-   / background-size: cover;
-    background-position: top center;
-    position: relative; */
-    background-color: white;
-    width: 100%;
-    min-height: 100vh
-
-}
 
 
-
-.logo img {
-    height: 120px;
-    margin-left: 30px;
- 
-}
-.cube{
-    width: 350px;
-    height: 350px;
-    display: block;
-    position: absolute;
-    bottom: 300px;
-    left: 950px; 
-}
-
-.arrow {
-    width: 350px;
-    height: 350px;
-    position: absolute;
-    bottom: 0;
-}
-
-hr {
-    width: 90%;
-    margin-left: 80px;
-    height:5px;
-    border-width:0;
-    color:black;
-    background-color:black;
-}
-.hero-container {
-    width: 100%;
-    height: 100%;
-    margin-left: 70px;
-    overflow-y: hidden;
-    position: relative;
-    
-}
-
-.slogan{
-    width: 100%;
-    height: 800px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.slogan p {
-    font-size: 17rem;
-    color: black;
-    
-}
-
-
-
-
-
-/*--------------------- Partnership ------------------ */
-.partnership{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: white;
-    
-}
-
-h2{
-    display: flex;
-    margin: 1em;
-    font-size: 5em;
-    
-}
-
-hr{
-    height: 5px;
-    border:solid black;
-    width: 90%;
-    text-align:center;
-}
-
-.partnership hr{
-    margin: 0em auto 12em auto;
-    height: 5px;
-    width: 90%;
-    text-align:center;
-    
-}
-
-.partnership h2{
-    margin : 1em 1em 1em 77px;
-}
-
-.partnership__content-container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-   
-}
-
-h3{
-    font-size: 4em;
-    margin: 1em 1em 1em 2em;
-    overflow-y: hidden;
-    
-}
-
-h4{
-    font-size: 3em;
-}
-
-p{
-    font-size: 2em;
-    
-}
-
-/* ------   INTERVIEW --------*/
-.partnership__interview-container{
-    display: flex;
-    flex-direction: column;
-    height: 900px;
-    width: 100%;
-    margin: 0px 0px 0em 0px;
-    
-  }
-
-.partnership__interview{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #1F1F1F;
-    height: 100%;
-}
-
-.parternship__interview-image{
-    display: flex;
-    height: 100%;
-    width: 50%;
-    object-fit: cover;
-}
-
-.interview_text{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 750px;
-    color: white;
-}
-
-.h4_interview{
-  margin: 75px auto 120px 120px;
-  font-size: 4em;
-}
-
-.p_interview{
-    text-align: justify;
-    font-size: 3em;
-    margin: 50px 120px 150px 120px;
-}
-
-/* ------   PODCAST --------*/
-.partnership__podcast-container{
-    display: flex;
-    flex-direction: column;
-    height: 900px;
-    width: 100%;
-    margin: 0px 0px 0em 0px;
-}
-
-.partnership__podcast{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background-color: #1F1F1F;
-    height: 100%;
-}
-
-.parternship__podcast-image{
-    display: flex;
-    height: 100%;
-    width: 50%;
-    object-fit: cover;
-}
-
-.podcast_text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 750px;
-    color: white;
-}
-
-.h4_podcast{
-    margin: 75px auto 120px 120px;
-    font-size: 4em;
-}
-
-.p_podcast{
-    text-align: justify;
-    font-size: 3em;
-    margin: 50px 120px 150px 120px;
-}
-
-
-/* ------   EVENT --------*/
-.partnership__event-container{
-    display: flex;
-    flex-direction: column;
-    height: 900px;
-    width: 100%;
-    margin: 0px 0px 0em 0px;
-}
-
-.partnership__event{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #1F1F1F;
-    height: 100%;
-}
-
-.parternship__event-image{
-    display: flex;
-    height: 100%;
-    width: 50%;
-    object-fit: cover;
-}
-
-.event_text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 750px;
-    width: 50%;
-    color: white;
-}
-
-.h4_event{
-    margin: 75px auto 120px 120px;
-    font-size: 4em;
-}
-
-.p_event{
-    text-align: justify;
-    font-size: 3em;
-    margin: 50px 120px 150px 120px;
-}
-
-
-
-
-/* --------------------  SERVICES ------------------ */
-.services__container{
-
-    display: flex;
-    flex-direction: column;
-    background-color: #fff04e;
-    max-width: 100%;
-    min-height: 100vh;
-    
-}
-
-.services__container h2{
-    color: #023255;
-}
-
-.services__container hr{
-    margin: 3em auto 10em auto;
-    height: 5px;
-    width: 90%;
-    border: none;
-    background-color:#023255 ;
-    text-align:center;
-    
-}
-
-.services__container-content{
-   
-    width: 80%;
-    letter-spacing: -1px;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    overflow-x: hidden ;
-    flex-wrap: wrap;
-    text-align: justify;
-      
-}
-
-.services__word{
-
-    font-size: 3em;
-    font-weight: bold;
-    color: #CCC03E;
-    margin: 10px;
-    line-height: 1.5;
-    transition: 0.5s ease ;
-   
-}
-
-/* Hover on the terms for switching its color*/ 
-.services__word:hover{
-    color:  #023255;
-    cursor: pointer;
-}
-
-
-/* --------------------  SUBSCRIBE ------------------ */
+/* ----------------------------------------  SUBSCRIBE  // Contact ---------------------------------- */
 
 .subscribe {
     width: 100%;
@@ -552,6 +606,9 @@ p{
 
 }
 
+.buttonDiv span{
+    font-size: 15px;
+}
 .contact {
     overflow-y: hidden;
     width: 100%;
@@ -563,12 +620,18 @@ p{
 }
 
 .contact h2 {
-    margin-left: 70px;
+    margin : 30px 70px;
     font-weight: bold;
     font-size: 100px;
-    padding-bottom: 30px;
+    overflow-y: hidden;
+    height: 130px;
 
 }
+
+.contact hr{
+    margin-left: 72px;
+}
+
 
 .arrow_black {
     align-self: flex-end;
@@ -599,7 +662,7 @@ p{
 .info{
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 600px;
     flex-direction: column;
     align-self: center;
     justify-content: space-between;
@@ -641,6 +704,10 @@ input {
 
 }
 
+.buttonDiv span{
+    font-size: 20px;
+}
+
 button {
     display: flex;
     all: unset;
@@ -659,49 +726,431 @@ button:hover {
     border: 2px solid #FFF04E;
 }
 
-.profile{
-    display: flex;
-    flex-flow: row wrap;
-    background-color: white;
-    max-width: 100%;
-    height: 900px;
-    border: solide 5px;
-}
-.sephora{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    background-color: white;
-    width: 50%;
-    height: 900px;
-}
-.sephoraImg{
-    display: flex;
-    height: 350px;
-    width: 300px;
-    background-image: url("./img/Sephora.jpg");
-    background-position: top center;
-    background-size: cover;
-}
-.assia{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background-color: white;
-    width: 50%;
-    height: 900px;
-}
-.assiaImg{
-    display: flex;
-    height: 350px;
-    width: 300px;
-    background-image: url("./img/Assia.jpg");
-    background-position: top center;
-    background-size: cover;
-}
 
-.rectangle{
-    height: 50px;
-    width: 100px;
-    background-color:#fff04e;
-}
+
+
+
+/* ------------------------------------------------  RESPONSIVE IPHONE 6/7/8 PLUS ----------------------------------------------- */
+
+@media only screen and (max-width: 450px) {
+    body {
+        width: 100%;
+    }
+
+    /* ----------  HEADER -------- */
+   
+    .hero{
+        height: 750px;
+        overflow-y: hidden;
+    }
+
+    .hero-container{
+        margin-left: 44px;
+    }
+
+    .logo{
+        margin-left: -36px;
+    }
+
+    .hero hr{
+        width: 80%;
+        margin-left: 43px;
+        margin-bottom: 50px;
+        margin-bottom: 0px;
+    }
+
+    .slogan{
+        height: 450px;
+    }
+    .arrow{
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        margin-bottom: 90px;
+        margin-left: 47%;
+        
+    }
+
+    .arrow-image{
+        height: 150px;
+        margin-top: 100px;
+        margin-left: 28px
+    }
+
+    .slogan p{
+        font-size: 11rem;
+    }
+    .arrow{
+        margin-left: 24%
+    }
+
+     /* ----------  Manifesto -------- */
+    .TECH{
+        margin: 85px 33px 100px 40px;
+        font-size: 30px;
+    }
+
+    .headerP{
+        font-size: 50px;
+    }
+
+
+     /* ----------  partnership -------- */
+
+     .partnership h2{
+        margin-left: 15%;
+     }
+
+     .partnership hr{
+        width: 80%;
+        margin-left: 43px;
+     }
+
+     /* ----------  Interview -------- */
+     .partnership__interview{
+        flex-direction: column;
+        align-items: center;
+        background-color: #1F1F1F;
+        height: 100%;
+    }
+
+    .partnership__interview-image{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .interview_text{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .h4_interview{
+        align-self: center;
+        margin: 30px 10px 10px 10px;
+    }
+
+    .p_interview{
+        text-align: justify;
+        font-size: 2em;
+        margin: 50px 80px 149px 75px;
+    }
+
+    /* ----------  Podcast -------- */
+    .partnership__podcast{
+        flex-direction: column;
+    }
+
+    .partnership__podcast-image{
+        width: 100%;
+    }
+
+   .podcast_text{
+       flex-flow: row wrap;
+       width: 100%;
+       height: 100%;
+   } 
+    .h4_podcast{
+        margin: 30px 10px 10px 10px;
+        font-size: 4em;
+        align-self: center;
+        height: auto;
+    }
+    
+    .p_podcast{
+        font-size: 2em;
+        margin: 50px 80px 149px 75px;
+        height: auto;
+    }
+
+    /* ----------  Event -------- */
+
+    .partnership__event{
+        flex-direction: column;
+    }
+
+    .partnership__event-image{
+        width: 100%;
+    }
+
+    .event_text{
+        flex-flow: row wrap;
+        height: 100%;
+        width: 100%;
+    }
+
+    .h4_event{
+        margin: 30px 10px 10px 10px;
+        font-size: 4em;
+        align-self: center;
+        height: auto;
+    }
+
+    .p_event{
+        text-align: justify;
+        font-size: 2em;
+        margin: 50px 80px 149px 75px;
+        height: auto;
+    }
+
+    /* ----------  Services -------- */
+
+    .services__container h2{
+        overflow-y: hidden;
+        margin: 1em;
+    }
+
+    .services__container hr{
+        margin: 0em 0px 3em 40px;
+        height: 5px;
+        width: 80%; 
+        border: solid #023255
+    }
+    
+    .services__word{
+
+        font-size: 30px;
+        font-weight: bold;
+        color: #CCC03E;
+        margin: 10px;
+        line-height: 1.5;
+        transition: 0.5s ease ;
+       
+    }
+
+
+    /* ----------  Profile -------- */
+        
+
+    /* ----------  Subscribe -------- */
+
+    .subscribe .subHead h2 {
+        margin: 0;
+        font-size: 6rem;
+    }
+   
+    #email{
+        width: 80%;
+        margin-left: 28px;
+    }
+
+    
+    /* ----------  Contact -------- */
+
+    .contact h2{
+        margin-top: 25px;
+        margin-bottom: -30px;
+        margin-left: 3rem;
+        font-size: 5rem;
+    }
+
+    .contact hr{
+        width: 85%;
+        margin: 0px 30px;
+    }
+
+    .contact_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        width: 100%;
+        font-size: 15px;
+        margin-left: 57px;
+    }
+
+    .contact_logo{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: -200px;
+    }
+
+
+  }
+
+  /* ------------------------------------------------  RESPONSIVE IPAD ------------------------------------------------------------ */
+
+  @media screen and (min-width: 451px) and (max-width: 800px) {
+    
+    body {
+        width: 100%;
+    }
+
+    /* ----------  HEADER -------- */
+    .logo{
+        margin-left: -38px;
+    }
+    
+    .hero hr{
+        width: 90%;
+        margin-left: 41px;
+    }
+
+    .hero-container{
+        margin-left: 40px;
+    }
+
+    .slogan{
+        margin-top: 25px;
+    }
+
+    .slogan p {
+        font-size: 15rem;
+    }
+
+    .arrow{
+        margin-left: -10px;
+    }
+     /* ----------  Manifesto -------- */
+    
+     .TECH{
+        margin: 100px 85px 100px 85px;
+        font-size: 45px;
+    }   
+
+    .headerP {
+        font-size: 45px;
+    }
+
+
+    /* ----------  partnership -------- */
+
+
+    .partnership h2{
+        margin: 1em 1em 1em 59px;
+     }
+
+     .partnership hr{
+        margin: 0em auto 12em auto;
+        height: 5px;
+        width: 85%;
+        text-align: center;
+     }
+
+
+    /* ----------  Interview ---------- */
+
+    .partnership__interview{
+        flex-direction: column;
+        align-items: center;
+        background-color: #1F1F1F;
+        height: 100%;
+    }
+
+    .partnership__interview-image{
+        width: 100%;
+    }
+
+    .interview_text{
+        height: 900px;
+        width: 100%;
+    }
+
+    .h4_interview{
+        margin: 50px 0px 0px 100px;
+    }
+
+    .p_interview{
+        margin: 75px 120px 0px 100px;
+    }
+
+    /* ----------  Podcast ------------ */
+
+    .partnership__podcast{
+        flex-flow: column;
+        align-items: center;
+        background-color: #1F1F1F;
+        height: 100%;   
+    }
+
+    .partnership__podcast-image{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .podcast_text{
+        width: 100%;
+    }
+
+    .h4_podcast{
+        margin: 50px 0px 0px 100px;
+    }
+
+    .p_podcast{
+        margin: 75px 120px 0px 100px;
+    }
+    /* ----------  Event -------------- */
+    
+    .partnership__event{
+        flex-direction: column;
+        align-items: center;
+        background-color: #1F1F1F;
+        height: 100%;
+        width : 100%
+    }
+
+    .partnership__event-image{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .event_text{
+        height: 900px;
+        width: 100%;
+    }
+
+    .h4_event{
+        margin: 50px 0px 0px 100px;
+    }
+
+    .p_event{
+        margin: 75px 120px 0px 100px;
+    }
+
+    /* ----------  Services -------------- */
+
+    .services__container h2{
+        overflow-y: hidden;
+        margin: 1em 1em 1em 59px;
+    }
+
+    .services__container hr{
+        margin: 0em auto 12em auto;
+        width: 85%;
+    }
+    .services__word{
+        font-size: 2em;
+    }
+
+    /* ----------  Profile -------------- */
+
+
+    /* ----------  Subscribe / contact -------------- */
+
+    .contact h2{
+        margin-left: 35px;
+    }
+
+    .contact hr{
+        margin-left: 35px;
+    }
+
+    .contact_container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info{
+        margin-left: 35px;
+        font-size: 2em;
+    }
+
+    .contact_logo{
+        margin-top: 150px;
+    }
+
+
+
+
+  }

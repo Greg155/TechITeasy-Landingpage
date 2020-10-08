@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>TechItEasy</title>
 </head>
 <body>
     <span class="cursor"></span>
     <div class="container">
         <!-- section header start-->  
+        <section class="cubeAnim">
+
+        
         <section class="hero">
             <nav class="logo">
                 <img src="./img/Logo_PNG.png" alt="">
@@ -20,10 +24,10 @@
                     <p>Take It Easy.</p>
                 </div>
                 <div class="cube">
-                    <img src="./img/polka_dot_paper.png" alt="">
+                    <img src="./img/cube_3D.svg" alt=""> 
                 </div>
                 <div class="arrow">
-                    <img src="./img/arrow_blue.svg" alt="">
+                    <img src="./img/arrow_blue.svg" class="arrow-image" alt="">
                 </div>
             </div>
         </section>
@@ -33,11 +37,17 @@
     <section class="manifesto">
         <div>
             <p class = "TECH">
-                <span class="headerP">TECH</span> ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta facilisis venenatis.
-                Aliquam porta facilisis venenatis. Etiam tincidunt sagittis leo ac accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam maximus sem eu eros porttitor posuere eget et
-            </p>
+                <span class="headerP">Qui sommes nous ? </span>
+                Tech It Easy est un média belge pour les métiers du monde de la technologie.
+                Accessible à tous.</p>
+                <p class="secondP">Que tu sois dans la Tech ou non, c'est sûrement fait pour toi ! On y trouve 
+                une communauté de personnes passionnées! Mais ce n'est pas tout ( ah bon ?! ). 
+                nous esperons débuter l'année 2021 une Tech It Academy ! Afin de vous fournir le plus d'outils 
+                possibles pour vos objectifs et futurs projets.
+                </p>
         </div>
         
+    </section>
     </section>
     <!-- section intro end  -->
 
@@ -48,30 +58,33 @@
         <div class="partnership__content-container">
             <div class="partnership__interview-container">
                 <div class="partnership__interview">
-                    <img class="parternship__interview-image" src="./img/interview_camera.jpg">
+                    <img class="partnership__interview-image" src="./img/interview_camera.jpg"> 
                     <div class="interview_text"> 
                         <h4 class="h4_interview">Interviews.</h4> 
-                        <p class="p_interview">Suivez les actualités TECH lors d'interviews avec des passionés et des professionels de ce milieu.</p>
+                        <p class="p_interview">Suiver les  actualités technologiques des professionels 
+                            et des passionés de ce milieu à travers leurs interviews.</p>
                     </div>
                 </div>
             </div>
             <div class="partnership__podcast-container">
                 <div class="partnership__podcast">
-                    <img  class="parternship__podcast-image" src="./img/podcast.jpg">
+                    <img class="partnership__podcast-image" src="./img/podcast.jpg">
                     <div class="podcast_text">
                         <h4 class="h4_podcast">Podcasts.</h4> 
-                        <p class="p_podcast">Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit elit, Lorem ipsum dolor sit amet, 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit elit, Lorem ipsum dolor sit amet</p>
+                        <p class="p_podcast">Sous la douche, sur la route ou dans la salle de sport, où que vous soyez, ecouter nos podcasts
+                            pour découvrir les nouveautés technologiques.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="partnership__event-container">
                 <div class="partnership__event">
-                    <img class="parternship__event-image" src="./img/event.jpg">
+                    <img class="partnership__event-image" src="./img/event.jpg">
                     <div class="event_text">
                         <h4 class="h4_event">Events.</h4> 
-                        <p class="p_event">Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit elit, Lorem ipsum dolor sit amet, 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit elit, Lorem ipsum dolor sit amet</p>
+                        <p class="p_event">Participez avec nous, aux évenements interactifs afin de partager et creer des liens avec les 
+                            amteurs et passionés de technologies! Si le corona ne le permet pas, des events a distance seront organisés.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -86,7 +99,6 @@
         <hr>
         <div class="services__container-content">
             <p class="services__word">Design.</p>
-            <p class="services__word">Sharing.</p>
             <p class="services__word">UI/UX.</p>
             <p class="services__word">Developer.</p>
             <p class="services__word">Tutos.</p>
@@ -96,14 +108,13 @@
             <p class="services__word">Podcast.</p>
             <p class="services__word">Creativity.</p>
             <p class="services__word">Storyies.</p>
-            <p class="services__word">Emotions.</p>
             <p class="services__word">Editing.</p>
+            <p class="services__word">Programming.</p>
             <p class="services__word">Production.</p>
             <p class="services__word">Animation.</p>
-            <p class="services__word">Podcast.</p>
-            <p class="services__word">Design.</p>
-            <p class="services__word">Sharing.</p>
-            <p class="services__word">UI/UX.</p>
+            <p class="services__word">Interactions.</p>
+            <p class="services__word">Networks.</p>
+            <p class="services__word">Emotions.</p>
             <p class="services__word">You.</p>
             <p class="services__word">Us.</p>
         </div>
@@ -148,11 +159,11 @@
         <!-- section subscribe start  -->
             <section class="subscribe">
                 <div class="subHead">
-                    <h2>subscribe to ...</h2>
+                    <h2>"Tech it" with you ! </h2>
                     <form action="" method="" class="subForm">
                         <input type="text" name="email" id ="email" placeholder="Enter your email">
                         <div class = "buttonDiv">
-                            <button><span>Subscribe</span></button>
+                            <button><span>Get in touch</span></button>
                         </div>    
                     </form>
                 </div>
@@ -160,7 +171,7 @@
             </section>
         <!-- section subscribe end  -->
         <section class = "contact">
-            <h2>Hello ,Partner.</h2>
+            <h2>For you, Partner.</h2>
             <hr>
             <div class="info">
                 <p>Email :</p>
@@ -174,12 +185,7 @@
                 <img src="./img/blackk.svg" alt="">
             </div>
         </section>
-
-
     </div>
-
-
-
 </body>
 <script src="./script.js"></script>
 

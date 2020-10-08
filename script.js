@@ -42,23 +42,30 @@ window.onload = () => {
     // }
     
     // }
- 
-    /*
+    let cube = document.querySelector(".cube")
+    let left = 600;
+    let bottom = 400
+    let currentScroll = 0;
     document.body.addEventListener('scroll', (e) => {
-     
-        // console.log(document.documentElement.scrollTop)
+       console.log(e.timeStamp)
 
-         if (document.body.scrollTop > 850 && document.body.scrollTop < 1000 ) {
-            document.body.scrollTo({
-                 top: 1000,
-                 left: 0,
-                 behavior: "smooth",
-            })
-         }
-    
-    
+        if (currentScroll < document.body.scrollTop) {
+            left +=5
+            bottom -=2
+        } else {
+            left -=5
+            bottom +=2            
+        }
+
+        // console.log(document.documentElement.scrollTop)
+        //console.log(cube.style.top)
+        cube.style.left = `${left}px`
+        cube.style.bottom = `${bottom}px`
+        currentScroll = document.body.scrollTop
+
+        console.log(left)
     })
-    */
+
     
     const blackArrow = document.querySelector('.arrow_black') 
 
