@@ -731,6 +731,7 @@ button:hover {
 
     .logo{
         margin-left: -36px;
+        overflow-y: hidden;
     }
 
     .hero hr{
@@ -762,24 +763,35 @@ button:hover {
         font-size: 11rem;
     }
     .arrow{
+        top: 460px;
         margin-left: 24%
     }
 
      /* ----------  Manifesto -------- */
+
     .TECH{
-        margin: 85px 33px 100px 40px;
+        margin: 50px 0px 100px 45px;
         font-size: 30px;
+        text-align: justify;
+        width: 73%;
     }
 
     .headerP{
         font-size: 50px;
     }
 
+    .secondP{
+        font-size: 26px;
+        margin: 0px 0px 0px 45px;
+        width: 70%;
+    }
+
+
 
      /* ----------  partnership -------- */
 
      .partnership h2{
-        margin-left: 15%;
+        margin-left: 11%;
      }
 
      .partnership hr{
@@ -900,7 +912,72 @@ button:hover {
 
 
     /* ----------  Profile -------- */
+    
+    .profileContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profileContainer h2{
+
+        margin-bottom: 5rem;
+    }
+
+    .profileContainer hr{
+
+    }
+
+    .profileTeam{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sephora{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .sephoraImgContainer{
+        width: 100%;
+    }
+
+    .sephoraImage{
         
+    }
+
+    .sephoraImgContainer h4{
+        height: 8%;
+        font-size: 30px;
+    }
+
+    .textSephora{
+        width: 100%;
+        margin: -0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .assia{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .assiaImgContainer{
+        width: 100%;
+    }
+
+    .assiaImgContainer h4{
+        height: 8%;
+        font-size: 30px;
+    }
+
+    .textAssia{
+        width: 100%;
+        text-align: center;
+    }
 
     /* ----------  Subscribe -------- */
 
@@ -1105,6 +1182,24 @@ button:hover {
     }
 
     /* ----------  Profile -------------- */
+
+    .profileTeam{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sephora{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .assia{
+        width: 100%;
+        height: 60vh;
+    }
+
+
+
 
 
     /* ----------  Subscribe / contact -------------- */
