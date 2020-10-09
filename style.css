@@ -434,7 +434,7 @@ p{
 /* Hover on the terms for switching its color*/ 
 .services__word:hover{
     color:  #023255;
-    cursor: pointer;
+    
 }
 
 /*------------------------------- PROFILE -------------------------- */
